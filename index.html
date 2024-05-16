@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>General Knowledge Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kavivanar&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <h1 id="title">General Knowledge Quiz</h1>
+    <hr />
+
+    <h2>Question 1</h2>
+    <p>There are ________ bones in the average human body.</p>
+    <p>
+      Answer:
+      <input
+        type="text"
+        class="inputfield"
+        id="question1-in"
+        placeholder="Type here"
+      />
+      <span id="response-1"></span>
+    </p>
+    <hr />
+
+    <h2>Question 2</h2>
+    <p>What are one of the five senses?</p>
+    <p>
+      Answer:
+      <input
+        type="text"
+        class="inputfield"
+        id="question2-in"
+        placeholder="Type here"
+      />
+      <span id="response-2"></span>
+    </p>
+
+    <hr />
+
+    <h2>Question 3</h2>
+    <p>What are one of the primary colors?</p>
+    <p>
+      Answer:
+      <input
+        type="text"
+        class="inputfield"
+        id="question3-in"
+        placeholder="Type here"
+      />
+      <span id="response-3"></span>
+    </p>
+
+    <hr />
+
+    <h2>Question 4</h2>
+    <p>Which planet in the solar system has the most moons?</p>
+    <p>
+      Answer:
+      <input
+        type="text"
+        class="inputfield"
+        id="question4-in"
+        placeholder="Type here"
+      />
+      <span id="response-4"></span>
+    </p>
+
+    <hr />
+
+    <h2>Question 5</h2>
+    <p>What country is represented on this flag?</p>
+
+    <div>
+      <p id="image">
+        <img src="img/canada.png" alt="Canada Flag" />
+      </p>
+    </div>
+
+    <p>
+      Answer:
+      <input
+        type="text"
+        class="inputfield"
+        id="question5-in"
+        placeholder="Type here"
+      />
+      <span id="response-5"></span>
+    </p>
+
+    <hr />
+
+    <h3>
+      <button id="submit-btn">SUBMIT</button>
+      <button id="reset-btn">RESET</button>Your Score:
+      <span id="score">---</span> / 5 (<span id="percent">---</span>%)
+    </h3>
+
+    <div id="div">
+      <p><span id="message">----------</span></p>
+    </div>
+  </body>
+</html>
